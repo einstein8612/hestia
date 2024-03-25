@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-colour: rgb(167, 167, 167);
+    --secondary-colour: rgb(105, 255, 105);
+    --tertiary-colour: white;
+
+    --primary-bg-colour: rgb(37, 37, 44);
+    --secondary-bg-colour: #191a1c;
+    --tertiary-bg-colour: #282a36;
+}
+
+html,
+body {
+    background-color: var(--primary-bg-colour);
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    overflow: auto;
+}
+
+
+body {
+    padding: 10px 25px;
+}

@@ -1,0 +1,6 @@
+[api]
+bind = "0.0.0.0:3000" # The address the API will bind to.
+
+[database]
+type = "MEMORY" # Type of database to use, valid choices: ["MEMORY", "POSTGRES", "SQLITE"].
+database_uri = "" # URI of the database you're trying to connect to.
